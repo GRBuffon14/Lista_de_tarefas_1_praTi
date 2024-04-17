@@ -12,7 +12,7 @@ const prompt = require(`prompt-sync`)();
 let n1 = parseInt(prompt("Insira o primeiro número: "));
 let n2 = parseInt(prompt("Insira o segundo número: "));
 let n3 = parseInt(prompt("Insira o terceiro número: "));
-let n4;
+let n4 = parseInt(prompt("Insira o terceiro número: "));
 
 //Processamento
 n4 = n1 + n2 + n3;

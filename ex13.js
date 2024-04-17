@@ -16,7 +16,7 @@ let i = 1
 //Saida
 do{
 numero = parseInt(prompt("Insira um número: "));
-for(let i = 0; i <= numero; i++){
+for(let i = 1; i <= numero; i++){
 	console.log(`${numero} X ${i} = ${numero*i}`)
 	
 }
