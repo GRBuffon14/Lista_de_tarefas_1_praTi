@@ -22,10 +22,9 @@ if (eleitores < validarEleitores) {
   percentualVotosBrancos = (votosBrancos * 100) / eleitores;
   percentualVotosNulos = (votosNulos * 100) / eleitores;
   percentualVotosValidos = (votosVálidos * 100) / eleitores;
+  //Saida
+  console.log("---------------------------------------");
+  console.log(`O percentual de votos em branco é: ${percentualVotosBrancos}%`);
+  console.log(`O percentual de votos nulos é: ${percentualVotosNulos}%`);
+  console.log(`O percentual de votos válidos é: ${percentualVotosValidos}%`);
 }
-
-//Saida
-console.log("---------------------------------------");
-console.log(`O percentual de votos em branco é: ${percentualVotosBrancos}%`);
-console.log(`O percentual de votos nulos é: ${percentualVotosNulos}%`);
-console.log(`O percentual de votos válidos é: ${percentualVotosValidos}%`);
