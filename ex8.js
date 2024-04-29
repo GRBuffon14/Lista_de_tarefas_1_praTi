@@ -16,4 +16,4 @@ let maior = valor1 < valor2 ? valor2 : valor1;
 let menor = valor1 < valor2 ? valor1 : valor2;
 
 //Saída
-console.log(`O valor maior é: ${menor} e o valor menor é: ${maior}`);
+console.log(`A ordem crescente dos números é: ${menor} e ${maior}`);
