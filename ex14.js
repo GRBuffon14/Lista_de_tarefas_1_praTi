@@ -11,7 +11,7 @@ let media = 0;
 
 //Processamento
 while (numero != 0) {
-  numero = parseInt(prompt("Insira um número: "));
+  numero = parseFloat(prompt("Insira um número: "));
   media += numero;
   contatodor++;
 }
